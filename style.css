@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+main {
+    max-width: 730px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+div#conteiner-foto img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Young Serif', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+p#title-p {
+    text-align: justify;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 25px;
+}
+
+div#prep-time {
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: hsla(332, 51%, 32%, 0.100);
+    margin-bottom: 30px;
+}
+
+div#prep-time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+ul#pre-time-ul {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+ul#pre-time-ul li {
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young serif';
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+ul#ingredients-ul {
+    padding-left: 15px;
+    list-style: disc;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 30px;
+}
+
+ul#ingredients-ul li > p {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+ol#instructions-ol {
+    padding-left: 15px;
+    color: hsl(14, 45%, 36%);
+    list-style-type: decimal;
+}
+
+ol#instructions-ol li > p {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+ul.nutri-p {
+    list-style: none;
+    column-count: 2;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+li.info-g {
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media(max-width: 425px) {
+    div#conteiner-foto img {
+        border-radius: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        object-fit: cover;
+    }
+ 
+    h1 {
+        margin-top: 170px;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
+
+
